@@ -29,6 +29,8 @@ latest_posts:
 
 I am a PhD candidate in Mechanical Engineering at **Beijing Institute of Technology (BIT)**, working at the **Intelligent Robot Research Institute** and the **Key Laboratory of "Bionics Robotics and Systems" (Ministry of Education)**, under the supervision of **Prof. Qiang Huang**.
 
+## Research Interests
+
 My research focuses on **intelligent robots and systems**, with particular interests in:
 
 - **Bipedal Locomotion & Motion Planning**: Developing advanced walking control algorithms for humanoid robots, including multi-modal locomotion, terrain-adaptive gait generation, and wheel-legged transformation.
@@ -36,6 +38,19 @@ My research focuses on **intelligent robots and systems**, with particular inter
 - **Model Predictive Control & Optimization**: Designing hierarchical planning frameworks using nonlinear optimization (CasADi, IPOPT) for real-time robot control.
 - **Embodied Intelligence**: Exploring Vision-Language-Action (VLA) models and brain-body coordination for humanoid robots.
 
-I have hands-on experience debugging **10+ robot platforms**, including self-developed humanoids, Unitree G1, Acceleration T1, and Tiangong Dex3. Currently, I am an intern at the **Embodied Intelligence Research Institute, HKUST (GZ)**, working on brain-body协同 control and data-driven dynamics characterization for humanoid robots.
+## Engineering Practice
 
-**Open to opportunities** in embodied intelligence, robot motion planning & control, and reinforcement learning research.
+Beyond academic research, I bring strong **engineering and product delivery capabilities**:
+
+- **10+ Robot Platforms**: Hands-on experience with self-developed humanoids, Unitree G1, Acceleration T1, Tiangong Dex3, and more — covering hardware assembly, driver tuning, zero-point calibration, and real-time control system integration.
+- **Real-World Deployment**: Led motion control algorithm development and product delivery at a BIT-affiliated robotics company, including live demonstrations at the **World Robot Conference** and delivery of a complete humanoid robot system for a field project.
+- **Full-Stack Robotics**: From low-level real-time control (RTOS + EtherCAT, 0.25–1kHz) to high-level planning algorithms, simulation environments (Isaac Gym/Sim, MuJoCo, CoppeliaSim), and sim-to-real transfer.
+- **Open Source**: Actively contribute to open-source legged robotics through [BitRoboticsLab](https://github.com/bitroboticslab) — building tools for footstep planning, geometry, motion visualization, and simulation education.
+
+## Current Work
+
+Currently, I am an intern at the **Embodied Intelligence Research Institute, HKUST (GZ)**, working on brain-body coordination control and data-driven dynamics characterization for humanoid robots, exploring the integration of VLA (Vision-Language-Action) models with low-level motion control.
+
+## Career Objective
+
+**Open to opportunities** in embodied intelligence, robot motion planning & control, and reinforcement learning research — seeking roles that combine **strong research depth** with **real-world robotics engineering impact**.

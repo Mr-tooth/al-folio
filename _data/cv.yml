@@ -7,16 +7,17 @@ cv:
   image: ""
   summary: >
     PhD candidate at Beijing Institute of Technology researching intelligent robots and systems.
+    Strong blend of academic research (5 papers, 8 patents, Q1 TOP journals) and hands-on
+    engineering (10+ robot platforms, real-world product delivery, World Robot Conference demos).
     Expertise in bipedal locomotion, motion planning, reinforcement learning, and sim-to-real deployment.
-    Published 5 papers (3 SCI, 1 under review), 8 patents (5 granted). Hands-on experience with 10+ robot platforms.
 
   social_networks:
     - network: GitHub
       username: Mr-tooth
-    # - network: Google Scholar
-    #   username: YOUR_ID
-    # - network: LinkedIn
-    #   username: YOUR_ID
+    - network: Google Scholar
+      username: 3csppPoAAAAJ
+    - network: ORCID
+      username: 0000-0001-7260-408X
 
   address:
     street: 5 South Zhongguancun Street
@@ -81,6 +82,7 @@ cv:
           - Led demo filming and live demonstrations at World Robot Conference 2023
           - Delivered special humanoid robot and control software for Phase I project in Xinjiang
           - Responsible for on-site exhibition and project delivery
+          - End-to-end product lifecycle: R&D → system integration → field testing → acceptance
 
     Research Projects:
       - name: "Bio-inspired Legged Robot with Multi-modal Locomotion and Manipulation"
@@ -125,6 +127,28 @@ cv:
           Achieved omnidirectional walking and dynamic obstacle avoidance.
           1 granted patent, 1 published EI paper.
 
+      - name: "Special-Purpose Humanoid Robot System Delivery"
+        date: "2023.06 – 2025.03"
+        source: "Industry Project (北京理工华汇智能科技有限公司)"
+        description: >
+          Led motion control algorithm development and product delivery at BIT-affiliated
+          robotics company. Delivered complete special-purpose humanoid robot system with
+          control software for field deployment in Xinjiang. Led live demonstrations at
+          World Robot Conference 2023. Demonstrated end-to-end engineering capability from
+          algorithm development to real-world product acceptance.
+
+    Industry Projects:
+      - name: "Special-Purpose Humanoid Robot System Delivery"
+        company: "Beijing Ligong Huahui Intelligent Technology Co., Ltd."
+        date: "2023.06 – 2025.03"
+        role: "Motion Control Algorithm Lead"
+        description: >
+          Led motion control algorithm development and project delivery for humanoid robot
+          products. Responsible for World Robot Conference 2023 demo filming and live
+          demonstrations. Delivered a complete special-purpose humanoid robot system and
+          control software package for a Phase I project in Xinjiang, covering the full
+          product lifecycle from R&D to field commissioning and acceptance.
+
     Publications:
       - title: "Towards High Mobility and Adaptive Mode Transitions: Transformable Wheel-Biped Humanoid Locomotion Strategy"
         authors: "Lai J.*, et al."
@@ -158,6 +182,14 @@ cv:
         role: "Student Third Author"
         status: Published
 
+      - title: "Low-centroid Crawling Motion for Humanoid Robot Based on Whole-body Dynamics and Trajectory Optimization"
+        authors: "Lai J. (3rd author)"
+        journal: "IEEE ICRCE 2022"
+        year: "2022"
+        impact: "EI Conference"
+        role: "Student Third Author"
+        status: Published
+
     Patents:
       - title: "基于变参数速度映射和二次规划的双足机器人落脚点规划方法"
         role: "Second (Advisor first)"
@@ -179,6 +211,10 @@ cv:
         role: "Second (Advisor first)"
         status: "Granted"
 
+      - title: "Other patents (3 more)"
+        role: ""
+        status: "Applied"
+
     Awards:
       - name: "Xu Teli Scholarship (徐特立奖学金)"
         date: "2021"
@@ -196,11 +232,13 @@ cv:
         date: ""
         description: ""
 
-      - name: "15 Scholarships Total"
+      - name: "15 Scholarships & 9 Honors"
         date: "2017-2027"
         description: >
           Including National Scholarship (×2), Special-class Academic Scholarship,
           Weichai Scholarship, Huarui Century Scholarship, Outstanding Student Scholarship, etc.
+          9 honors including Beijing Outstanding Graduate, Outstanding Student Pacesetter,
+          Outstanding Student Cadre, Virtue & Learning Pioneer.
 
     Skills:
       - category: "Algorithm & Theory"
@@ -226,6 +264,8 @@ cv:
           - "Joint assembly, zero-point calibration, electrical soldering"
           - "URDF/XML model construction and sim-to-real alignment"
           - "10+ robot platforms: self-developed humanoids, Unitree G1, Acceleration T1, Tiangong Dex3"
+          - "RTOS + EtherCAT real-time control (0.25–1kHz)"
+          - "Full product lifecycle: R&D → integration → testing → field deployment → acceptance"
 
       - category: "Language"
         items:

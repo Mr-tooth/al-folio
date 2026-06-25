@@ -4,9 +4,11 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf:
+cv_format: rendercv
+description: >
+  Junhang Lai — PhD Candidate in Mechanical Engineering, Beijing Institute of Technology.
+  Research on intelligent robots, bipedal locomotion, motion planning, and reinforcement learning.
 toc:
   sidebar: left
 ---

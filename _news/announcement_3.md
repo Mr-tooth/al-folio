@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-12-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+📄 Paper under review (2nd round): "Online Terrain-Aware Bipedal Gait Generation via Manifold Projection and Optimization-Guided Motion Libraries" at **IEEE/ASME Transactions on Mechatronics** (Q1 TOP, IF=7.1).

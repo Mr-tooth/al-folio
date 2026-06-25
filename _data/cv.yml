@@ -1,189 +1,233 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Junhang Lai (赖俊杭)
+  label: PhD Candidate in Mechanical Engineering
+  email: laijunhang.bit@vip.163.com
+  phone: +86 188-0131-1775
+  location: Beijing, China
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    PhD candidate at Beijing Institute of Technology researching intelligent robots and systems.
+    Expertise in bipedal locomotion, motion planning, reinforcement learning, and sim-to-real deployment.
+    Published 5 papers (3 SCI, 1 under review), 8 patents (5 granted). Hands-on experience with 10+ robot platforms.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: Mr-tooth
+    # - network: Google Scholar
+    #   username: YOUR_ID
+    # - network: LinkedIn
+    #   username: YOUR_ID
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: 5 South Zhongguancun Street
+    city: Beijing
+    region: Haidian District
+    postalCode: "100081"
+    countryCode: CN
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Beijing Institute of Technology (北京理工大学)
+        location: Beijing, China
+        url: https://www.bit.edu.cn/
+        area: Mechanical Engineering
+        studyType: PhD (Recommended for Admission)
+        start_date: "2021"
+        end_date: "2027"
+        score: "GPA: 3.86/4.00"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Intelligent Robot Research Institute
+          - Key Laboratory of "Bionics Robotics and Systems" (MoE)
+          - Advisor: Prof. Qiang Huang (黄强教授)
+          - 985 / Double First-Class University
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Beijing Institute of Technology (北京理工大学)
+        location: Beijing, China
+        url: https://www.bit.edu.cn/
+        area: Mechatronics Engineering
+        studyType: BEng
+        start_date: "2017"
+        end_date: "2021"
+        score: "GPA: 3.87/4.00 (Rank 1)"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Ranked 1st in major, recommended for direct PhD admission
+          - 985 / Double First-Class University
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Embodied Intelligence Research Institute, HKUST (GZ)
+        position: Research Intern
+        location: Guangzhou, China
+        start_date: "2026.04"
+        end_date: Present
+        summary: >
+          Research on brain-body coordination control and data-driven dynamics characterization
+          for humanoid robots. Exploring VLA (Vision-Language-Action) models integrated with
+          low-level motion control for humanoid robots.
         highlights:
-          - Relativity
-          - Description 2.
+          - Brain-body coordination control for humanoid robots
+          - Data-driven dynamics topological characterization
+          - VLA + motion control integration
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Beijing Ligong Huahui Intelligent Technology Co., Ltd.
+        position: Motion Control Algorithm Lead
+        location: Beijing, China
+        start_date: "2023.06"
+        end_date: "2025.03"
+        summary: >
+          Led motion control algorithm development and on-site demonstrations for
+          humanoid robot products. Delivered special-purpose humanoid robot systems
+          and control software for field applications.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Led demo filming and live demonstrations at World Robot Conference 2023
+          - Delivered special humanoid robot and control software for Phase I project in Xinjiang
+          - Responsible for on-site exhibition and project delivery
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    Research Projects:
+      - name: "Bio-inspired Legged Robot with Multi-modal Locomotion and Manipulation"
+        date: "2025.04 – 2026.01"
+        source: "MoE Integrated Platform Project (教育部集成攻关大平台)"
+        description: >
+          Research on heterogeneous reconfiguration technology for legged robots.
+          Designed extended command space and VAE-based state estimation for multi-modal
+          motion control with reinforcement learning training and sim-to-real deployment.
+          Achieved complex terrain walking, fall recovery, quadruped crawling, and
+          vehicle riding/dismounting on legged robots.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - name: "Humanoid Robot for Firefighting Scenarios"
+        date: "2023.07 – 2024.12"
+        source: "Beijing Municipal Science & Technology Plan (北京市科技计划)"
+        role: "PhD Student Lead"
+        description: >
+          Developed foot-terrain interaction walking control algorithms under computational constraints.
+          Designed a hierarchical planning-control framework ("Mapping-Optimization-Reconstruction")
+          with dimensionality-reduced manifold motion modeling and safe trajectory optimization.
+          Achieved stable omnidirectional walking on stairs, slopes, and low obstacles.
+          Published 1 first-author paper in Q1 TOP journal.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - name: "Autonomous Mobile and Dexterous Manipulation Humanoid Robot"
+        date: "2022.09 – 2023.12"
+        source: "Beijing Municipal Science & Technology Plan (北京市科技计划)"
+        description: >
+          Designed system integration and software architecture based on RTOS and EtherCAT.
+          Built multi-process communication architecture achieving 0.25-1kHz real-time
+          force-position hybrid control. Developed wheel-legged transformation subsystem
+          with minimal modification design. Proposed phase-decomposition-guided PSO trajectory
+          optimization for stable wheel-legged mode switching on unstructured terrain.
+          Published 1 first-author paper in Q1 TOP journal.
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - name: "Primate-inspired High-mobility Robot"
+        date: "2021.09 – 2022.06"
+        source: "National Key R&D Program (国家重点研发计划)"
+        description: >
+          Developed crawling motion planning based on Central Pattern Generators (CPG).
+          Designed multi-frequency decoupled planning architecture for bipedal walking
+          with QP-based foothold planning and MPC-based trajectory planning.
+          Achieved omnidirectional walking and dynamic obstacle avoidance.
+          1 granted patent, 1 published EI paper.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: "Towards High Mobility and Adaptive Mode Transitions: Transformable Wheel-Biped Humanoid Locomotion Strategy"
+        authors: "Lai J.*, et al."
+        journal: "ISA Transactions"
+        year: "2025"
+        impact: "Q1 TOP, IF=6.5"
+        role: "First Author"
+        status: Published
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: "Online Terrain-Aware Bipedal Gait Generation via Manifold Projection and Optimization-Guided Motion Libraries"
+        authors: "Lai J.*, et al."
+        journal: "IEEE/ASME Transactions on Mechatronics"
+        year: "2026"
+        impact: "Q1 TOP, IF=7.1"
+        role: "First Author"
+        status: Under Review (2nd round)
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: "Equivalent Predictive Control and Handle Point Control for Bipedal-Vehicle Transformable Robots Under Various Disturbances"
+        authors: "Lai J. (2nd author)"
+        journal: "IEEE Transactions on Automation Science and Engineering"
+        year: "2025"
+        impact: "Q2 TOP, IF=6.3"
+        role: "Student Second Author"
+        status: Published
+
+      - title: "Efficient Hybrid Environment Expression for Look-and-Step Behavior of Bipedal Walking"
+        authors: "Lai J. (3rd author)"
+        journal: "Cyborg and Bionic Systems"
+        year: "2025"
+        impact: "Q1 TOP, IF=18.1"
+        role: "Student Third Author"
+        status: Published
+
+    Patents:
+      - title: "基于变参数速度映射和二次规划的双足机器人落脚点规划方法"
+        role: "Second (Advisor first)"
+        status: "Granted"
+
+      - title: "基于双层模型预测控制的双足机器人全向行走质心轨迹规划方法"
+        role: "Second (Advisor first)"
+        status: "Granted"
+
+      - title: "基于关键模态分解和CPG的仿人机器人低姿匍匐全身运动规划方法"
+        role: "Second (Advisor first)"
+        status: "Granted"
+
+      - title: "基于联邦卡尔曼滤波的双足机器人行走质心状态估计方法"
+        role: "Second (Advisor first)"
+        status: "Granted"
+
+      - title: "机器人三自由度电驱动耦合关节的运动可行范围线性界定方法"
+        role: "Second (Advisor first)"
+        status: "Granted"
+
+    Awards:
+      - name: "Xu Teli Scholarship (徐特立奖学金)"
+        date: "2021"
+        description: "Highest honor at BIT — only 1 nominee per college"
+
+      - name: "National Scholarship (国家奖学金) ×2"
+        date: "2019, 2020"
+        description: "Top national-level scholarship for outstanding students"
+
+      - name: "Beijing Outstanding Graduate (北京市优秀毕业生)"
+        date: "2021"
+        description: ""
+
+      - name: "Outstanding Student Pacesetter (优秀学生标兵)"
+        date: ""
+        description: ""
+
+      - name: "15 Scholarships Total"
+        date: "2017-2027"
+        description: >
+          Including National Scholarship (×2), Special-class Academic Scholarship,
+          Weichai Scholarship, Huarui Century Scholarship, Outstanding Student Scholarship, etc.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - category: "Algorithm & Theory"
+        items:
+          - "Deep RL: PPO, SAC, sim-to-real transfer"
+          - "Rigid body dynamics: Lagrangian, Newton-Euler, Pinocchio"
+          - "Motion planning & optimization control theory"
+          - "Nonlinear optimization: CasADi, IPOPT, SNOPT"
+          - "MPC: Crocoddyl-based controllers for legged robots"
+          - "QP solvers: Eigen-QP, OSQP"
+          - "Understanding of VLA, WAM and frontier embodied control methods"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - category: "Software & Tools"
+        items:
+          - "Languages: C++, Python, MATLAB"
+          - "Build: CMake"
+          - "Simulation: Isaac Gym/Sim, MuJoCo, V-REP (CoppeliaSim)"
+          - "AI Tools: Codex, Claude Code, OpenClaw, Hermes"
 
-      - name: English
-        summary: "Fluent"
+      - category: "Hardware & Engineering"
+        items:
+          - "Elmo driver tuning, encoder assembly, motor debugging"
+          - "Joint assembly, zero-point calibration, electrical soldering"
+          - "URDF/XML model construction and sim-to-real alignment"
+          - "10+ robot platforms: self-developed humanoids, Unitree G1, Acceleration T1, Tiangong Dex3"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - category: "Language"
+        items:
+          - "CET-6: 588, CET-4: 637"
+          - "Extensive experience in project report writing, technical documentation, PPT creation"

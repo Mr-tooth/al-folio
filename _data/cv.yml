@@ -240,6 +240,41 @@ cv:
           9 honors including Beijing Outstanding Graduate, Outstanding Student Pacesetter,
           Outstanding Student Cadre, Virtue & Learning Pioneer.
 
+    Open Source Projects:
+      - name: "AStarFootstepPlanner"
+        url: "https://github.com/bitroboticslab/AStarFootstepPlanner"
+        description: "A* footstep planner for humanoid robots — optimal footstep sequences on complex terrain with kinematic constraints"
+        role: "Core Developer"
+        tech: "C++"
+        stars: 6
+
+      - name: "Heuclid"
+        url: "https://github.com/bitroboticslab/Heuclid"
+        description: "Lightweight C++ geometry and vector math library for robotics — 2D/3D primitives, convex polygons, spatial queries"
+        role: "Creator & Core Developer"
+        tech: "C++"
+        stars: 3
+
+      - name: "Robot Motion Player"
+        url: "https://github.com/bitroboticslab/robot-motion-player"
+        description: "Visualizer & editor for AMP motion datasets for legged robot locomotion research"
+        role: "Creator & Developer"
+        tech: "Python"
+        stars: 3
+
+      - name: "BitbotDeploy"
+        url: "https://github.com/bitroboticslab/BitbotDeploy"
+        description: "Sim-to-real deployment framework for legged robots — bridging simulation-trained policies to real hardware"
+        role: "Creator & Lead Developer"
+        tech: "C++ / Python"
+
+      - name: "CoppeliaSim Tutorials for Beginners"
+        url: "https://github.com/bitroboticslab/Coppeliasim-Tutorials-for-Beginners"
+        description: "Bilingual (EN/CN) educational tutorials for CoppeliaSim robotics simulation"
+        role: "Author & Maintainer"
+        tech: "MATLAB"
+        stars: 2
+
     Skills:
       - category: "Algorithm & Theory"
         items:

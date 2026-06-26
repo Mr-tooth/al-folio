@@ -45,7 +45,7 @@ Beyond academic research, I bring strong **engineering and product delivery capa
 - **10+ Robot Platforms**: Hands-on experience with self-developed humanoids, Unitree G1, Acceleration T1, Tiangong Dex3, and more — covering hardware assembly, driver tuning, zero-point calibration, and real-time control system integration.
 - **Real-World Deployment**: Led motion control algorithm development and product delivery at a BIT-affiliated robotics company, including live demonstrations at the **World Robot Conference** and delivery of a complete humanoid robot system for a field project.
 - **Full-Stack Robotics**: From low-level real-time control (RTOS + EtherCAT, 0.25–1kHz) to high-level planning algorithms, simulation environments (Isaac Gym/Sim, MuJoCo, CoppeliaSim), and sim-to-real transfer.
-- **Open Source**: Actively contribute to open-source legged robotics through [BitRoboticsLab](https://github.com/bitroboticslab) — building tools for footstep planning, geometry, motion visualization, and simulation education.
+- **Open Source at [BitRoboticsLab](https://github.com/bitroboticslab)**: Founded and maintain an open-source robotics organization — [AStarFootstepPlanner](https://github.com/bitroboticslab/AStarFootstepPlanner) (A* footstep planner, C++), [Heuclid](https://github.com/bitroboticslab/Heuclid) (geometry library, C++), [Robot Motion Player](https://github.com/bitroboticslab/robot-motion-player) (AMP dataset tool, Python), [BitbotDeploy](https://github.com/bitroboticslab/BitbotDeploy) (sim2real framework), and [CoppeliaSim Tutorials](https://github.com/bitroboticslab/Coppeliasim-Tutorials-for-Beginners) (bilingual education).
 
 ## Current Work
 

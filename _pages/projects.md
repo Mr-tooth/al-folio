@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects and industry engineering experience in legged robots, humanoid locomotion, and embodied intelligence.
+description: Research projects, open-source tools, and industry engineering experience in legged robots, humanoid locomotion, and embodied intelligence.
 nav: true
 nav_order: 3
-display_categories: [research, industry]
+display_categories: [research, industry, opensource]
 horizontal: false
 ---
 

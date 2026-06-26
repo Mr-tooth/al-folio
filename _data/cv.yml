@@ -262,11 +262,12 @@ cv:
         tech: "Python"
         stars: 3
 
-      - name: "BitbotDeploy"
-        url: "https://github.com/bitroboticslab/BitbotDeploy"
-        description: "Sim-to-real deployment framework for legged robots — bridging simulation-trained policies to real hardware"
-        role: "Creator & Lead Developer"
-        tech: "C++ / Python"
+      - name: "OpenClaw Guide for Beginners"
+        url: "https://github.com/bitroboticslab/OpenClaw-Guide-for-Beginners"
+        description: "Complete guide for deploying 24/7 AI assistants — full-platform tutorial + API configuration + multi-platform integration"
+        role: "Author & Maintainer"
+        tech: "Shell / Markdown"
+        stars: 10
 
       - name: "CoppeliaSim Tutorials for Beginners"
         url: "https://github.com/bitroboticslab/Coppeliasim-Tutorials-for-Beginners"

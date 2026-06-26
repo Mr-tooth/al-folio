@@ -1,37 +1,37 @@
 ---
 layout: page
-title: "BitbotDeploy"
-description: Sim-to-real deployment framework for legged robots — bridging simulation-trained policies to real hardware
-img: assets/img/project_bitbotdeploy.jpg
-importance: 9
+title: "OpenClaw Guide for Beginners"
+description: Complete guide for deploying your own 24/7 AI assistant — full-platform deployment tutorial + API configuration + platform integration
+img: assets/img/project_openclaw.jpg
+importance: 11
 category: opensource
 related_publications: false
 links:
   - name: GitHub
-    url: https://github.com/bitroboticslab/BitbotDeploy
+    url: https://github.com/bitroboticslab/OpenClaw-Guide-for-Beginners
     icon: fa-brands fa-github
 ---
 
-**Language:** C++ / Python | **Organization:** [bitroboticslab](https://github.com/bitroboticslab)
+**Language:** Shell / Markdown | **Stars:** 10 | **Organization:** [bitroboticslab](https://github.com/bitroboticslab)
 
 ## Overview
 
-A sim-to-real deployment framework designed to bridge the gap between simulation-trained locomotion policies and real-world legged robot hardware. Provides a unified pipeline for policy export, real-time inference, and hardware interface abstraction.
+A comprehensive, beginner-friendly guide for deploying your own always-on AI assistant powered by OpenClaw. Covers the full deployment pipeline from server setup to multi-platform integration, designed to help users get started with AI agent workflows quickly.
 
 ## Key Features
 
-- **Unified deployment pipeline**: from Isaac Gym/Sim trained policies to real hardware execution
-- **Hardware abstraction layer**: support for multiple robot platforms (custom humanoids, Unitree, etc.)
-- **Real-time control loop**: deterministic timing with RTOS integration
-- **Safety layer**: joint limit enforcement, emergency stop, and graceful degradation
+- **Full-platform coverage**: step-by-step tutorials for deployment on Linux, macOS, and cloud platforms
+- **API configuration**: detailed guides for connecting LLM providers (OpenAI, Anthropic, local models, etc.)
+- **Platform integration**: connecting to Discord, Telegram, WhatsApp, Feishu, and more
+- **Troubleshooting**: common pitfalls and solutions based on real-world deployment experience
+- **Bilingual content**: Chinese and English documentation
 
 ## Technical Highlights
 
-- C++ core for real-time performance, Python interface for configuration and monitoring
-- EtherCAT communication protocol support for high-frequency motor control
-- Modular architecture for easy adaptation to new robot platforms
-- Extensive experience from deploying on 10+ robot hardware platforms
+- Server setup, environment configuration, and security hardening
+- Multi-channel communication architecture
+- Practical examples from real deployment scenarios
 
 ## My Role
 
-Creator and lead developer — designed the architecture based on real-world deployment experience across multiple humanoid and legged robot platforms.
+Author and maintainer — created the guide based on personal deployment experience, maintaining it as the primary onboarding resource for the OpenClaw community.
